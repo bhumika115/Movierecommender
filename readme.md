@@ -18,4 +18,15 @@ Source: MovieLens (ml-latest-small)
 4. Movie ratings follow a long-tail pattern: a few movies have many ratings, while most movies have very few.
 5. A popularity-based recommender is a strong baseline because some movies dominate rating counts.
 
+## Baseline Recommender
+1. A simple popularity-based recommender was built as a starting point.
+2. Movies are recommended based on how many ratings they have and their average rating.
+3. A minimum rating count is used so that movies with very few ratings are not recommended.
+## Content based recommendendation
+1. A content based recommender was implemented using movie's genres.
+2. For a user , movie they rated highly are used to understand their genre preferences.
+3. Each movie is represented using their genres, and new movies are recommened if it matches   the genres they are intrested in.
+ 
+
+
 
