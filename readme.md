@@ -26,7 +26,10 @@ Source: MovieLens (ml-latest-small)
 1. A content based recommender was implemented using movie's genres.
 2. For a user , movie they rated highly are used to understand their genre preferences.
 3. Each movie is represented using their genres, and new movies are recommened if it matches   the genres they are intrested in.
- 
+
+## Item based filtering recommender
+An item based filtering recommender was built using user rating patterns.recommendations are 
+ created by suggesting the movies tha are similar to the movies the user has given high ratings.
 
 
 
