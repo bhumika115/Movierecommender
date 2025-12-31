@@ -33,3 +33,5 @@ An item based filtering recommender was built using user rating patterns.recomme
 
 
 
+## Evaluation
+The recommender system was bult using Precision@10 and Recall@10. Movie was considered revelant if the rating was higher than or equal to 3.5.
